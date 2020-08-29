@@ -1,0 +1,10 @@
+name: StackRemover
+version: 1.0.0
+description: A modern solution to an old problem
+author: lightless
+main: org.codex.blockremover.ClassLoader
+api-version: 1.8.8
+commands:
+  stackremover:
+    aliases: [sr, rs, sb, removestack, stackbreaker, breakstack]
+    description: Click a Physics Block to Stack Remove.

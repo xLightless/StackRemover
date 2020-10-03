@@ -27,5 +27,17 @@ public class BlockRemoverMain implements Listener {
 		
 	}
 	
+	public static ItemStack getSlabPlacer() {
+		ItemStack is = new ItemStack(Material.STEP);
+		ItemMeta im = is.getItemMeta();
+		List<String> lore = new ArrayList<String>();
+		im.setDisplayName(ChatColor.AQUA + "Slab Placer");
+		lore.add(ChatColor.GRAY + "" + ChatColor.ITALIC + "A Slab will be placed on the ground");
+		lore.add(ChatColor.GRAY + "" + ChatColor.ITALIC + "and all blocks vertically above will be removed.");
+		im.setLore(lore);
+		is.setItemMeta(im);
+		return is;
+	}
+	
 	
 }

@@ -21,5 +21,3 @@ public class ClassLoader extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new Events(), this);
 	}
 }
-
-//Comment
